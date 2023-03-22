@@ -31,4 +31,4 @@ If the original styles were wrong, the result will also be wrong. For example, i
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](https://github.com/finomenal/styl2scss/blob/main/LICENSE)

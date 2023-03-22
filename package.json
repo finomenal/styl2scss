@@ -1,6 +1,6 @@
 {
   "name": "styl2scss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically convert stylus to scss",
   "main": "src/index.js",
   "bin": {
@@ -17,5 +17,29 @@
     "find-up": "5.0.0",
     "glob": "9.3.1",
     "stylus": "0.59.0"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finomenal/styl2scss.git"
+  },
+  "homepage": "https://github.com/finomenal/styl2scss#readme",
+  "bugs": {
+    "url": "https://github.com/finomenal/styl2scss/issues"
+  },
+  "author": {
+    "name": "Savelyev Alexander",
+    "url": "https://github.com/vordgi/"
+  },
+  "keywords": [
+    "convert stylus",
+    "scss",
+    "styl",
+    "stylus",
+    "styl to scss",
+    "stylus to scss",
+    "convert",
+    "tools",
+    "cli"
+  ]
 }
