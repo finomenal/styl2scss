@@ -15,7 +15,7 @@ const stylToScss = () => {
 	}
 
 	if (config.convertStyles) {
-		console.log(`Convert styles. Total files: ${stylusFiles.length}`);
+		console.log(`\nConvert styles. Total files: ${stylusFiles.length}\n`);
 		stylusFiles.forEach((file) => {
 			const filePath = path.join(process.cwd(), file);
 			const { dir, name } = path.parse(filePath);
@@ -26,7 +26,7 @@ const stylToScss = () => {
 	};
 
 	if (config.removeOldStyles) {
-		console.log(`Remove old styles. Total files: ${stylusFiles.length}`);
+		console.log(`\nRemove old styles. Total files: ${stylusFiles.length}\n`);
 		stylusFiles.forEach((file) => {
 			const filePath = path.join(process.cwd(), file);
 			fs.rmSync(filePath);
@@ -35,7 +35,7 @@ const stylToScss = () => {
 
 	if (config.updateJSX) {
 		const jsxFiles = glob.sync('**/*.tsx', { ignore: config.ignore });
-		console.log(`Update JSX files. Total files: ${jsxFiles.length}`);
+		console.log(`\nUpdate JSX files. Total files: ${jsxFiles.length}\n`);
 		jsxFiles.forEach((file) => {
 			const filePath = path.join(process.cwd(), file);
 			const data = fs.readFileSync(filePath, { encoding: 'utf-8' });

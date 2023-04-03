@@ -15,7 +15,7 @@ s2s
 
 ## Configuration
 
-Create the `style2scss.config.js` file above in the project with the following options:
+Create the `styl2scss.config.js` file above in the project with the following options:
 
 `ignore` - list of ignored globs (*default* - `['node_modules/**']`);
 

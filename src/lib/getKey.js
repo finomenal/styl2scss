@@ -19,7 +19,7 @@ const getKey = (node, targetFile) => {
 		return node.toString().replace(/@media \(/, '@media ').replace(/\)$/, '');
 	}
 
-	console.error(targetFile, 'getKey', node);
+	console.error(`\n${targetFile}\nPlease, create an issue at https://github.com/finomenal/styl2scss/issues\nWe can't convert this key:\n${exp.toString()}`);
 	process.exit();
 	return '';
 };

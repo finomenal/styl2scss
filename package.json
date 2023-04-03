@@ -1,6 +1,6 @@
 {
   "name": "styl2scss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically convert stylus to scss",
   "main": "src/index.js",
   "bin": {
