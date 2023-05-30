@@ -59,7 +59,7 @@ ${node.block.nodes.map((n) => `${parseNode(n, lvl + 1)}`).join('\n')}
 ${'\t'.repeat(lvl)}}`;
 			return newRaw;
 		}
-		console.error(`\n${targetFile}\nWe can't convert this node:\n${exp.toString()}\nPlease, create an issue at https://github.com/finomenal/styl2scss/issues`);
+		console.error(`\n${targetFile}\nWe can't convert this node:\n${node.toString()}\nPlease, create an issue at https://github.com/finomenal/styl2scss/issues`);
 		process.exit();
 		return '';
 	};
